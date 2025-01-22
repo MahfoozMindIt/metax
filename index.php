@@ -251,12 +251,12 @@ $AfricaCollect = [
 <div class="d-flex justify-content-center gap-5 flex-column">
     <div>
         
-<h1 class="heading"><span><span style="color:#6d00a7">Global Payment</span> Solutions </span></h1>
-            <h1 class="heading">for Business Owners</h1>
+<h1 class="heading bannerContent"><span><span style="color:#6d00a7">Global Payment</span> Solutions </span></h1>
+            <h1 class="heading  bannerContent">for Business Owners</h1>
     </div>
             <div class="d-flex justify-content-start">
                 <div class="col-xl-7">
-                    <p class="main__desc"><span class="metax">Metax</span> offers a comprehensive selection of financial services for business
+                    <p class="main__desc bannerContent"><span class="metax">Metax</span> offers a comprehensive selection of financial services for business
                         owners,
                         such
                         as unique IBANs, international transfers, currency exchange, and more. Sign up for your Business
@@ -264,7 +264,7 @@ $AfricaCollect = [
                         today—it's quick and simple.</p>
                 </div>
             </div>
-            <div class="pt-3">
+            <div class="pt-3 bannerContent">
                 <div>
                     <a href="<?php echo $open_account_url ?>" class="btn-main" target="__blank">
                         Open Account
@@ -285,11 +285,11 @@ $AfricaCollect = [
 
 </div>
 </div>
-            <div class="pad pb-3">
+            <div class="mobile-padding ibanPadding">
                 <p style="color:#6d00a7;font-size: 15px;text-align:center">
                     We’re Regulated & Authorized
                 </p>
-            </div>
+          
 
             <div class="d-none">
                 <div class="slide-up-animation animated">
@@ -843,6 +843,8 @@ $AfricaCollect = [
 
             </section>
 
+            </div>
+
 
 
             <section class="section d-none" id="virtual-cards">
@@ -933,7 +935,7 @@ $AfricaCollect = [
             </section>
 
 <!-- cross border payments -->
-            <section class="section" id="account-solutions" style="padding-top:120px;">
+            <section class="section1" id="account-solutions">
                 <div class="">
                         <div class="cross_border">
                             <div class="">
@@ -1429,21 +1431,21 @@ $AfricaCollect = [
                                 <picture>
 
 
-                                    <img class="box__image box__image_short"
-                                        src="<?php echo $url ?>assets/images/figure-15v.png" width="654" height="1395"
+                                    <img class="accountImg"
+                                        src="<?php echo $url ?>assets/images/figure-15v.png"
                                         alt="How to Open International Account" loading="lazy">
                                 </picture>
                             </div>
-                            <div class="col-xl-9">
-                                <div class="box__content">
+                            <div class="col-xl-9 col-13 openAccount">
+                                <div class="">
                                     <div class="row gx-0 gy-4 gy-md-5">
-                                        <div class="col-xxl-9 col-12">
-                                            <h2 class="heading">
+                                        <div class="col-xxl-9 col-sm-9">
+                                            <h2 class="heading mobileMode">
                                                 Open <span style="color:#6d00a7">Your Account</span> Digitally Within 5 Working Days
                                             </h2>
-                                            <p>
+                                            <p class="mobileMode mobileP">
                                                 Ready to revolutionize your financial management? <br> Register your
-                                                profile
+                                                <span class="metax">profile</span>
                                                 now! <br> It's quick, simple, and all online.
                                             </p>
                                         </div>
@@ -1501,13 +1503,13 @@ $AfricaCollect = [
 
 
 
-
+<!-- handle your finance -->
             <section class="section mt-5 mb-5" id="apps-download">
                 <div class="">
                     <div class="box box_violet">
                         <div class="row g-0">
                             <div class="col-xl-7 col-xxl-6">
-                                <div class="box__content box__content_violet">
+                                <div class="box__content_violet">
                                     <div class="row row-cols-1 gy-4 gy-xl-5 text-xl-left">
                                         <div class="text-xl-left">
                                             <h2 class="heading" style="margin-bottom:20px;">
@@ -1525,7 +1527,7 @@ $AfricaCollect = [
                                                 your business.
                                             </p>
                                         </div>
-                                        <div class="gap-2">
+                                        <div class="">
                                             <div class="d-inline-block">
                                                 <a class="appstore-link"
                                                     style="background-color:#000000;padding:10px 20px"
@@ -1556,8 +1558,7 @@ $AfricaCollect = [
                             <div class="col-xl-5 col-xxl-6">
                                 <div class="phone-bottom-wrapper">
                                     <div class="phone-bottom">
-                                        <img src="<?php echo $url ?>assets/images/phone-image-1.png" width="512"
-                                            height="1042" alt="Manage Your Finances On-The-Go" loading="lazy">
+                                        <img src="<?php echo $url ?>assets/images/phone-image-1.png" class="img2" alt="Manage Your Finances On-The-Go" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -1567,18 +1568,18 @@ $AfricaCollect = [
             </section>
 
 
+<!-- who is eligible to apply -->
 
-
-            <section class="section mt-5 mb-5" id="money-regulation">
-                <div class="">
-                    <div class="box">
-                        <div class="row g-0">
-                            <div class="col-xl-5 col-xxl-6">
+            <section class="section mt-5 mb-5 mobile-padding" id="money-regulation">
+                
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-center gap-xl-5">
+                            <div class="">
                                 <img class="box__image" src="<?php echo $url ?>assets/images/who-can-apply.png"
                                     width="960" height="780" alt="Who Can Apply" loading="lazy">
                             </div>
-                            <div class="col-xl-7 col-xxl-6 order-xl-first">
-                                <div class="box__content">
+                            <div class="w-100 order-xl-first">
+                                <div class="">
                                     <h2 class="heading pb-3">
                                         Who is <span style="color:#6d00a7">Eligible to</span> Apply?
                                     </h2>
@@ -1598,7 +1599,7 @@ $AfricaCollect = [
                             </div>
                         </div>
                     </div>
-                </div>
+               
             </section>
 
 
@@ -1634,7 +1635,7 @@ $AfricaCollect = [
 
 
 
-
+<!-- FAQ -->
 
             <section class="section mt-5 mb-5" id="faq">
                 <div class="">

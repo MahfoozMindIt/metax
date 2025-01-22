@@ -5,7 +5,7 @@
     }
 </style>
 <section class="footer mt-5 container" id="top-container">
-    <div class="footer-box" style="row-gap:0px;">
+    <div class="py-5" style="row-gap:0px;">
         <!-- Top -->
         <div id="social-media">
             <div class="row gx-lg-5 gy-5 gy-xxl-0">

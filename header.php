@@ -195,6 +195,10 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         .dropmenu {
             position: relative;
         }
+        
+        .section1{
+            padding-top: 120px;
+        }
 
         .navbar-new {
             gap: 37px;
@@ -442,7 +446,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
-            padding: 15px 24px;
+            /* padding: 15px 24px; */
             background-color: #1A1A1A;
             border-radius: calc(2* var(--ray));
         }
@@ -550,6 +554,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         .mini-block-v3_h100-xxl {
             height: 100%;
         }
+        
 
         .mini-block-v3 {
             display: flex;
@@ -559,6 +564,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             background-color: var(--violet-light);
             border-radius: calc(4* var(--ray));
             overflow: hidden;
+        }
+        .ibanPadding{
+            padding-top: 200px;
         }
 
         .text-xxl-left {
@@ -652,9 +660,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         }
 
         .box__image {
-            width: 100%;
+            /* width: 100%;
             max-width: none;
-            height: 100%;
+            height: 100%; */
             -o-object-fit: cover;
             object-fit: cover;
             -o-object-position: center;
@@ -1147,7 +1155,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             background-color: var(--violet-light);
             border-radius: calc(4* var(--ray));
         }
-
+.img2{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
         .account-card__price-list {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1473,6 +1485,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             -moz-appearance: none;
             appearance: none;
             outline: none;
+        }
+        .box__content_violet{
+            padding: 50px;
         }
 
         .checkbox:checked+span.span-checkbox {
@@ -1847,6 +1862,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             position: absolute;
             left: 0;
             top: 0;
+        }
+        .openAccount{
+            padding-left: 100px;
         }
 
         .pricing-hero__block {
@@ -2448,6 +2466,15 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     right: 40%;
                 }
             }
+            .banner{
+                padding-top: 100px;
+            }
+            .bannerContent{
+                text-align: center;
+            }
+            .accountImg{
+                display: none;
+            }
             .box-faq__title{
                 font-size: 20px;
             }
@@ -2491,6 +2518,10 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 background: #fff;
 
             }
+            .openAccount{
+            padding-left: 0;
+            padding-top: 100px;
+        }
 
             .main-menu {
                 display: flex;
@@ -2552,6 +2583,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             .box-cta__title {
                 font-size: 40px;
             }
+        
 
         }
 
@@ -2687,9 +2719,29 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 margin-bottom: 20px;
                 margin-top: 20px;
             }
+            .mobileMode{
+            text-align: start;
+        }
+        
         }
 
         @media (max-width: 576px) {
+            .mobile-padding{
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+            .box__content_violet{
+            padding: 20px;
+        }
+            
+            .mobileP{
+                font-size: 15px;
+            }
+        .mobileMode{
+            text-align: center;
+            padding-bottom: 30px;
+            width: 100%;
+        }
             .around{
                 width: 100%;
             }
@@ -2715,9 +2767,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 flex-direction: column;
             }
 
-            .footer-box {
-                /* padding: 20px; */
-            }
+           
 
             .section__inner {
                 /* padding:0 40px 0 40px; */
@@ -2756,6 +2806,16 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 order: 2;
                 /* Text comes second */
             }
+            .appstore-link{
+                margin-bottom: 15px;
+            }
+            
+        .section1{
+            padding-top: 0;
+        }
+        .banner{
+            padding-top: 20px
+        }
         }
 
         @media (max-width: 480px) {
